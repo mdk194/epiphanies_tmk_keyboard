@@ -23,7 +23,7 @@
 #define PRODUCT_ID      0x6050
 #define DEVICE_VER      0x0104
 #define MANUFACTURER    Costar
-#define PRODUCT         Majestouch TKL
+#define PRODUCT         FM2 ninja mdk
 
 /* message strings */
 #define DESCRIPTION     t.m.k. keyboard firmware for Majestouch TKL
