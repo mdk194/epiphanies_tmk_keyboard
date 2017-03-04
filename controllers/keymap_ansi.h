@@ -25,7 +25,7 @@ enum function_id {
 };
 
 static const uint16_t PROGMEM fn_actions[] = {
-    [0] = ACTION_LAYER_TAP_KEY(1, KC_ESC),
+    [0] = ACTION_MODS_TAP_KEY(MOD_LALT, KC_ESC),
     [1] = ACTION_LAYER_MOMENTARY(1),
     [2] = ACTION_FUNCTION_TAP(LSHIFT_LPAREN),
     [3] = ACTION_FUNCTION_TAP(RSHIFT_RPAREN),
